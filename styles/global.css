@@ -53,6 +53,10 @@ img {
     background-color: lightblue;
 }
 
-#reset {
+#restart {
     color: red;
+}
+
+.hide {
+    display: none;
 }
