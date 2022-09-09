@@ -23,25 +23,19 @@
         </header>
 
         <main>
-            <div id="initial-container">
+            <div id="inputs">
                 <div>
-                    <img
-                        src="/assets/FortuneTellerImage.jpg"
-                        alt="Fortune Teller with Crow"
-                        id="fortune-teller"
-                    />
+                    <img src="/assets/FortuneTellerImage.jpg" alt="Fortune Teller" />
                 </div>
-                <label for="question">
-                    <input type="text" name="question" id="fortune-question" />
-                    <button id="ask-fortune">Ask Your Fortune</button>
+                <label for="ask-fortune">
+                    <input type="text" name="question" id="question" />
+                    <button id="ask">Ask the Fortune Teller...</button>
                 </label>
             </div>
-            <div>
-                <div id="fortune-cont" class="hide">
-                    <h2>The Fortune Teller Says...</h2>
-                    <p id="fortune"></p>
-                    <button id="restart">New Fortune</button>
-                </div>
+            <div id="fortune-container" class="hide">
+                <h2>The Fortune Teller States...</h2>
+                <p id="fortune"></p>
+                <button id="reset">Restart Fortune</button>
             </div>
         </main>
 

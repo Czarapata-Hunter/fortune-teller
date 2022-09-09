@@ -33,15 +33,3 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
-
-#fortune-teller {
-    width: 30%;
-}
-
-#fortune-question {
-    width: 20%;
-}
-
-#ask-fortune {
-    width: 10%;
-}
