@@ -35,3 +35,24 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+img {
+    width: 30%;
+}
+
+#inputs-container {
+    width: 80%;
+}
+
+#ask {
+    color: red;
+    background-color: black;
+}
+
+#question {
+    background-color: lightblue;
+}
+
+#reset {
+    color: red;
+}
