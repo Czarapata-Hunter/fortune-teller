@@ -1,6 +1,6 @@
 const inputsContainer = document.getElementById('inputs-container');
 const fortuneContainer = document.getElementById('fortune-container');
-console.log(fortune);
+
 const askButton = document.getElementById('ask');
 const restartButton = document.getElementById('restart');
 
@@ -32,6 +32,11 @@ askButton.addEventListener('click', () => {
     const randNum = Math.floor(Math.random() * answers.length);
     fortune.textContent = answers[randNum];
 
+    inputsContainer.classList.toggle('hide');
+    fortuneContainer.classList.toggle('hide');
+});
+
+restartButton.addEventListener('click', () => {
     inputsContainer.classList.toggle('hide');
     fortuneContainer.classList.toggle('hide');
 });
