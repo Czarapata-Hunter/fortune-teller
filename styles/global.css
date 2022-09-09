@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     font-family: 'Rubik', san-serif;
-    background: var(--background);
+    background: white;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
@@ -32,4 +32,16 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+#fortune-teller {
+    width: 30%;
+}
+
+#fortune-question {
+    width: 20%;
+}
+
+#ask-fortune {
+    width: 10%;
 }
