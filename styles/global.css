@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     font-family: 'Rubik', san-serif;
-    background: var(--background);
+    background: white;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
@@ -17,19 +17,46 @@ header {
     top: 0;
     display: flex;
     align-items: center;
-    background-color: var(--header-background);
+    background-color: forestgreen;
 }
 
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
     position: sticky;
     bottom: 0;
     padding: 7px 20px;
-    font-size: .8em;
+    font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+img {
+    width: 30%;
+}
+
+#inputs-container {
+    width: 80%;
+}
+
+#ask {
+    color: red;
+    background-color: black;
+}
+
+#question {
+    background-color: lightblue;
+}
+
+#restart {
+    color: red;
+}
+
+.hide {
+    display: none;
 }
