@@ -22,6 +22,8 @@ header {
 
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
@@ -32,8 +34,4 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
-}
-
-img {
-    width: 30%;
 }
