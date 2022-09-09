@@ -25,3 +25,29 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+## HTML Elements
+
+-   Image of fortune teller / 8 ball
+
+*   Text input field for questions being asked with "Ask about your fortune..."
+
+*   submit button - will have an event listener
+
+-   p or a div for the fortune being delivered to the user
+
+## State Variables
+
+-   selectedFortune
+
+## Events
+
+-   Button click
+    -   pick a random fortune from the list created
+    -   remove the fortune teller or 8 ball image
+    -   display the fortune div to the user
+    -   display "Next Fortune" button
+
+*   play again button click
+    -   display the 8 ball and inputs again
+    -   remove the fortune divs
